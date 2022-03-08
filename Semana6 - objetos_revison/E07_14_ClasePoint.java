@@ -24,7 +24,7 @@ public class Point{
     public Point midPoint(Point p2){
         Point midP = new Point();
         midP.setX((this.x + p2.getX())/2);
-        midP.setX((this.y + p2.getY())/2);
+        midP.setY((this.y + p2.getY())/2);
 
         return midP;
     }
